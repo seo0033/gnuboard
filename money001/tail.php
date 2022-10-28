@@ -12,7 +12,11 @@ if(G5_COMMUNITY_USE === false) {
 }
 ?>
 
-
+<?php
+    if (!defined('_INDEX_')) { // index가 아닐 때 실행
+        include G5_THEME_PATH . '/sub.tail.php'; // 서브테일
+    }
+    ?>
 
 <footer class="footer">
     tail

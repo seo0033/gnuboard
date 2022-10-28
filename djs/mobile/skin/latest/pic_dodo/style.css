@@ -1,0 +1,29 @@
+@charset "utf-8";
+/* 새글 스킨 (latest) */
+
+.item .lt_img {background:#000}
+.item .subject{color:#fff;font-weight:bold}
+.item .lt_date {display:none}
+
+.item .lt_img img{opacity:1;border:2px #00a2bf solid}
+.item .lt_img img:hover{opacity:1;border:1px #000 solid}
+
+.owl-dots{display:none}
+.owl-theme i {padding:5px 5px 3px 5px;font-size:20px}
+.owl-theme .owl-nav {margin-top:0 !important}
+.owl-theme .owl-nav [class*='owl-']{background:#fff !important;opacity:0.7}
+.owl-theme .owl-nav [class*='owl-']:hover {background:#00a2bf !important}
+
+.owl-prev,.owl-next {position:absolute;top:50%;transform:translateY(-50%)}
+.owl-prev {left:1rem}
+.owl-next {right:1rem}
+
+.custom_overlay {position:absolute;top:0;bottom:0;left:0;right:0;text-align:center;background-color:rgba(0, 0, 0, .5);opacity:0;
+	-webkit-transition: all 400ms ease-in-out;
+	-moz-transition: all 400ms ease-in-out;
+	-o-transition: all 400ms ease-in-out;
+	transition: all 400ms ease-in-out}
+ 
+.custom_overlay:hover{opacity:1}
+.custom_overlay_inner {position:absolute;top:50%;left:10px;right:10px;transform:translateY(-50%)}
+ 

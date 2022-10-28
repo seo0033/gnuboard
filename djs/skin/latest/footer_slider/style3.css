@@ -1,0 +1,6 @@
+.section_list_n ul li:after{visibility:hidden;content:"";display:block;clear:both}
+.section_list_n .inner_h{float:right;padding-left:1px;}
+.section_list_n .inner_h .tit{font-weight:400;font-size:14px;}
+
+
+.section_list_n>a {font-size:14px;color:#666;}

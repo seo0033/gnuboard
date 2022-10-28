@@ -1,4 +1,4 @@
-Theme Name: 1억벌기 중 1번째 홈페이지
+Theme Name: basic_frame
 Theme URI: http://theme.sir.kr/gnuboard5/demo/basic
 Maker: SIR
 Maker URI: http://sir.kr

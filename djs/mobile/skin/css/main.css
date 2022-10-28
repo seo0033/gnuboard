@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=Roboto:wght@100;300;400;500&display=swap');
+@import url('https://cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css');
+
+html {
+    --mc: #102f80;
+    --gc: #dddddd;
+    --wc: #f9f9f9;
+}
+
+body {
+    line-height: 1;
+    font-family: 'Roboto', 'Noto Sans KR', sans-serif;
+    font-size: 16px;
+    color: #444444;
+}
+
+p {
+    line-height: 1.45;
+    word-break: keep-all;
+}
+
+figure {
+    padding: 0;
+    margin: 0;
+}
+
+.slick-track,
+.slick-slide {
+    transition-duration: 30ms;
+}
+
+.inner {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+}
+
+.section {
+    padding: 100px 0;
+}
+
+.section h2 {
+    font-size: 30px;
+    font-weight: 500;
+    margin: 0 0 20px 0;
+}
+
+.section p.title {
+    line-height: 1;
+    font-size: 17px;
+    margin: 0 0 40px 0;
+}
+
+.Wrap {}
+
+.top_slogan {
+    border-bottom: 1px solid var(--gc);
+    line-height: 1.8;
+    font-size: 14px;
+}
+
+.top_slogan>ul {
+    justify-content: space-between;
+}
+
+.header {
+    line-height: 100px;
+    border-bottom: 1px solid var(--gc);
+}
+
+.header h1 {
+    font-size: 0;
+}
+
+.header .inner {
+    justify-content: space-between;
+}
+
+.header .gnb>ul {
+    display: flex;
+    gap: 40px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.main_visual {
+    position: relative;
+}
+
+.main_visual .main_slide figure {
+    height: 700px;
+}
+
+.main_visual .main_slide .itm01 {
+    background: url(../img/main_visual_01.jpg)no-repeat center center/cover;
+}
+
+.main_visual .main_slide .itm02 {
+    background: url(../img/main_visual_02.jpg)no-repeat center center/cover;
+}
+
+.main_visual .main_slide .itm03 {
+    background: url(../img/main_visual_03.jpg)no-repeat center center/cover;
+}
+
+.main_visual .slogan {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 1200px;
+    color: var(--wc);
+    text-shadow: 0 0 2px var(--mc);
+}
+
+.main_visual .slogan h2 {
+    font-size: 60px;
+    font-weight: 700;
+    margin: 0 0 30px 0;
+}
+
+.main_visual .slogan p {
+    font-size: 22px;
+}
+
+.sub_page {}
+
+.sub_page .page {
+    background: var(--mc);
+    color: var(--wc);
+    line-height: 40px;
+}
+
+.sub_page .page ol {
+    justify-content: flex-end;
+    gap: 30px;
+    color: #f00;
+}

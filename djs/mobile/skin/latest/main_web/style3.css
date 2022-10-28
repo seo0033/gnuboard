@@ -1,0 +1,9 @@
+.section_list_n ul{padding:0;list-style:none;}
+.section_list_n ul li{width:100%;border-bottom:1px solid #ddd;padding:5px 0;zoom:1}
+.section_list_n ul li:after{visibility:hidden;content:"";display:block;clear:both}
+
+.section_list_n .inner_h{float:left;width:100%;padding-left:1px;}
+.section_list_n .inner_h .tit{width:100%;margin-bottom:3px;font-weight:400;font-size:14px;}
+
+
+.section_list_n>a {display:block;font-size:14px;color:#666;padding:0 0 10px 0;}
